@@ -1,0 +1,50 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    position: relative;
+    margin: 0;
+    padding-bottom: 36rem;
+    height: 100vh;
+}
+
+.navbar-brand
+{
+    color: white;
+}
+
+label{
+    text-align: left;
+}
+
+.container-form
+{
+    margin-top: 3%;;
+    justify-content: center;
+    text-align: center;
+}
+
+.form-title
+{
+    padding-bottom: 10px;
+    text-align: left;
+}
+
+input.form-control
+{
+    width: 400px;
+}
+
+.Change-btn
+{  
+    text-align: left;
+    justify-content: left;
+}
+.message {
+    margin: auto;
+    margin-top: 20px;
+}

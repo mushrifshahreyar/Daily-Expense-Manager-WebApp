@@ -1,0 +1,108 @@
+body{
+    background-color: rgb(36, 36, 36);
+    margin: 0;
+    padding: 0;
+}
+
+.firstrow{
+/* height: 50%; */
+/* width: 100%; */
+background-color: white;
+height: 33vh;
+width: 100vw;
+margin: 0;
+}
+.secondrow{
+margin: 0;
+width: 100%;
+background-color: rgb(36, 36, 36);
+height: 60.5vh;
+/* border-top: 5px dotted black; */
+}
+.row1col1{
+/* background-color: rgb(240, 240, 240); */
+height: 33vh;
+width: 100vw;
+border-right: 5px dotted rgb(36, 36, 36);
+}
+.row1col2{
+/* background-color: rgb(199, 199, 199); */
+height: 33vh;
+width: 100vw;
+}
+.currentmonth{
+padding-top: 35px;
+/* margin-left: 20px; */
+margin:auto;
+width: 30%;
+}
+.transactiondetails{
+padding-top: 20px;
+}
+#currentmonthname{
+color: rgb(47, 197, 182);
+}
+#prevmonthname{
+color: rgb(255, 77, 77);
+}
+#adddetails{
+color: rgb(255, 255, 140);
+/* text-align: center; */
+padding-top: 45px;
+padding-bottom: 20px;
+margin:auto;
+width: 60%;
+}
+#transactiondetailstable{
+color: rgb(140, 234, 255);
+text-align: center;
+padding-top: 45px;
+padding-bottom: 45px;
+margin:auto;
+width: 60%;
+}
+.prevmonth{
+padding-top: 35px;
+/* margin-left: 20px; */
+margin:auto;
+width: 30%;
+}
+.secondrow{
+color: white;
+}
+.row2col1{
+/* border-right: 5px dotted white; */
+height: 100%;
+max-height: 30vh;
+}
+.row2col2{
+height: 100%;
+max-height: 30vh;
+}
+.formentry{
+padding-top: 0px;
+/* margin-left: 20px; */
+margin:auto;
+width: 60%;
+max-height: 380px;
+overflow-y: scroll;
+}
+.transactiontable{
+/* padding-top: 75px; */
+/* margin-left: 20px; */
+margin:auto;
+width: 80%;
+}
+.table-responsive {
+max-height:350px;
+width: 100%;
+overflow-y: scroll;
+}
+thead{
+position: sticky;
+top: 0px;
+}
+.header { 
+        position: sticky; 
+        top:-1px; 
+    } 

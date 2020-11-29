@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: ivory;
+}
+.navbar {
+    position: sticky;
+    top: 0;
+}
+.titleName {
+    color: white;
+}
+
+.titleName:hover {
+    color: white;
+}
+
+.regSection {
+    position: relative;
+    width: 650px;
+    margin: auto;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+}
+
+.myForm {
+    position: relative;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    background: rgba(25,25,25,0.04);
+    box-shadow: -6px 4px 28px 4px rgba(0,0,0,0.75);
+    height: 50%;
+    width: 80%;
+}
+
+.myForm header {
+    color: #282828;
+    font-size: 33px;
+    font-weight: 800;
+    margin: 30px;    
+    font-family: 'Montserrat',sans-serif;
+}
+
+.myForm .myInput {
+    margin: 5px;
+    margin-bottom: 15px;
+    color: black;
+    border-radius: 30px;
+    height: 40px;
+    width: 70%;
+        
+    text-align: center;
+    border: none;
+    box-shadow: 0px 10px 49px -14px rgba(0,0,0,0.4);
+}
+
+.myForm .myInput:focus {
+    outline: none;
+}
+
+.myForm .SubmitBtn {
+    margin: 10px;
+    font-size: 16px;
+    background-color: lightblue;
+    border-radius: 25px;
+    width: 150px;
+    height: 40px;
+    border: none;
+}
+
+.myForm .SubmitBtn:hover {
+    outline: none;
+    margin: 10px;
+    background-color: blue;
+    color: #fff;
+    border-radius: 25px;
+    width: 150px;
+    height: 40px;
+    border: none;
+    box-shadow: -4px 10px 49px -14px rgba(0,0,0,0.5);
+}
+
+.myForm .loginLink {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
