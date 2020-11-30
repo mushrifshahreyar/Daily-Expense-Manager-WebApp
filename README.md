@@ -7,3 +7,23 @@ This project aims to create a web application that manages the daily expenses of
 <h2>Screenshots</h2>
 <h3> Index Page</h3>
 <img src="Screenshot/Indexpage.png">
+
+<h3> Register Page</h3>
+<img src="Screenshot/RegisterPage.png">
+
+<h3> User Dashboard Page</h3>
+<img src="Screenshot/Dashboard.png">
+
+<h4> Dashboard: Dynamic form</h2>
+<ul>
+    <li>
+        <h5>Payment Mode: Cash</h5>
+            <img src="Screenshot/DynamicForm_a.png">
+    </li>
+</ul>
+
+<h3> Register Page</h3>
+<img src="Screenshot/RegisterPage.png">
+
+<h3> Register Page</h3>
+<img src="Screenshot/RegisterPage.png">
