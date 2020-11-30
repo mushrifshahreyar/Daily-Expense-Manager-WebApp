@@ -2,7 +2,7 @@
     session_start();
 
     if($_SESSION['username'] == NULL) {
-        header('location: home.php');
+        header('location: index.php');
     }
 
     $emailID = $_SESSION['emailID'];
@@ -45,10 +45,10 @@
                 <li class="nav-item dropdown">
                   <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Hi <?php print($_SESSION['username']); ?></a>
                   <div class="dropdown-menu dropdown-menu-right">
-                    <a href="home.php" class="dropdown-item">Home</a>
+                    <a href="dashboard.php" class="dropdown-item">Home</a>
                     <a href="settings.php" class="dropdown-item">Edit Information</a>
                     <div class="dropdown-divider"></div>
-                    <a href="logout.php" class="dropdown-item">Logout</a>
+                    <a href="index.php" class="dropdown-item">Logout</a>
                   </div>
                 </li>
               </ul>

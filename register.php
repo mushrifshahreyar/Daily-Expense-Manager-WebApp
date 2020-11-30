@@ -44,30 +44,22 @@
 <body>
   <nav class="navbar navbar-dark bg-dark">
     <div class="navbar-brand">
-      <a class="titleName" href="home.php"> Daily Expense Manager</a>
+      <a class="titleName" href="index.php"> Daily Expense Manager</a>
     </div>
   </nav>
   <div class="regSection">
     <form class="myForm text-center" action="register.php" method="POST">
       <header class="heading">Registration Form</header>
       <div class="form-group">
-        <!-- <i class="fas fa-user"></i> -->
-        <!-- <label class = "myLabel" for="username">Username</label> -->
         <input type="text" class="myInput" id="name" placeholder="name" required name="username">
       </div>
       <div class="form-group">
-        <!-- <i class="fas fa-user"></i> -->
-        <!-- <label class = "myLabel" for="username">Username</label> -->
         <input type="email" class="myInput" id="emailID" placeholder="emailID" required name="emailid">
       </div>
       <div class="form-group">
-        <!-- <i class="fas fa-user"></i> -->
-        <!-- <label class = "myLabel" for="username">Username</label> -->
         <input type="password" class="myInput" id="emailID" placeholder="password" required name="password">
       </div>
       <div class="form-group">
-        <!-- <i class="fas fa-user"></i> -->
-        <!-- <label class = "myLabel" for="username">Username</label> -->
         <input type="password" class="myInput" id="emailID" placeholder="re-enter password" required name="password2">
       </div>
 

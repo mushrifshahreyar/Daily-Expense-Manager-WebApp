@@ -1,7 +1,7 @@
 <?php 
   session_start();
   if($_SESSION['username'] == NULL) {
-    header('location: home.php');
+    header('location: index.php');
   }
   $emailID = $_SESSION['emailID'];
   
@@ -75,13 +75,13 @@
     var obj = document.getElementById("paymentDetail");
     const div = document.createElement('div')
     div.innerHTML = `<div id="paymentInput">
-                      <label for="exampleFormControlSelect1">Card</label>
+                      <label for="exampleFormControlSelect">Card</label>
                         <select class="form-control" id="modeform" name="card">
                         <?php
                         $cards = mysqli_query($db, "SELECT card_id, card_name FROM card WHERE uid=$uid");
                         while ($rows = mysqli_fetch_assoc($cards)) {
                         ?>
-                          <option value="<?= $rows['card_id'] ?>"><?= print($rows['card_name']); ?></option>
+                          <option value="<?= $rows['card_id'] ?>"><?php print($rows['card_name']) ?></option>
                          <?php } ?>
                         </select> 
                     </div>`;
@@ -124,7 +124,7 @@
             <a href="settings.php" class="dropdown-item">Edit Information</a>
             <a type="button" class="dropdown-item" data-toggle="modal" data-target="#myModal">Add card</a>
             <div class="dropdown-divider"></div>
-            <a href="logout.php" class="dropdown-item">Logout</a>
+            <a href="index.php" class="dropdown-item">Logout</a>
           </div>
         </li>
       </ul>

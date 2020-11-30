@@ -2,7 +2,7 @@
     session_start();
 
     if($_SESSION['username'] == NULL) {
-        header('location: home.php');
+        header('location: index.php');
     }
     $message = NULL;
     $db = mysqli_connect('localhost', 'newroot', '12345', 'expmgr') or die("connection to mysql failed");
@@ -80,7 +80,7 @@
                             <a href="dashboard.php" class="dropdown-item">Home</a>
                             <a href="#" class="dropdown-item">View past transactions</a>
                             <div class="dropdown-divider"></div>
-                            <a href="home.php" class="dropdown-item">Logout</a>
+                            <a href="index.php" class="dropdown-item">Logout</a>
                         </div>
                     </li>
                 </ul>
