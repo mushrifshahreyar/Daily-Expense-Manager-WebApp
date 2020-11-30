@@ -21,7 +21,7 @@ This project aims to create a web application that manages the daily expenses of
     </ul>
 
 <h2>UI: Demo Video</h2>
-<img src="Screenshot/ui.gif" alt="Not Available" />
+<img src="Screenshot/ui.gif" alt="Not Available" width=450/>
 
 <h2>Screenshots</h2>
 <h3> Index Page</h3>
