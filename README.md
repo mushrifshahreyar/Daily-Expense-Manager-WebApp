@@ -12,20 +12,20 @@ This project aims to create a web application that manages the daily expenses of
     
 
 ## Database: Tables used
-    * **User**: For storing all the user account informations
-    * **Expense**: For storing the expense related informations
-    * **Card**: For storing all the user's card informations
+* **User**: For storing all the user account informations
+* **Expense**: For storing the expense related informations
+* **Card**: For storing all the user's card informations
     
 
 ## UI: Demo Video
-[!Demo video](Screenshot/ui.gif)
+![Demo video](Screenshot/ui.gif =400x)
 
-<h2>Screenshots</h2>
-<h3> Index Page</h3>
-<img src="Screenshot/Indexpage.png" width=600>
+## Screenshots
+### Index Page
+![Index Page](Screenshot/Indexpage.png =600x)
 
-<h3> Register Page</h3>
-<img src="Screenshot/RegisterPage.png" width=600>
+### Register Page
+![Register Page](Screenshot/RegisterPage.png =600x)
 
 <h3> User Page</h3>
 <img src="Screenshot/Dashboard.png" width=600>
