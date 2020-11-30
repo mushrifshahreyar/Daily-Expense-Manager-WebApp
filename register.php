@@ -66,7 +66,7 @@
 
       <input type="submit" class="SubmitBtn" value="Register" name="registerbtn">
 
-      <a class="loginLink" href="home.php">Already User? Login</a>
+      <a class="loginLink" href="index.php">Already User? Login</a>
     </form>
   </div>
   </body>
