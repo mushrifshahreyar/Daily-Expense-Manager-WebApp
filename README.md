@@ -1,8 +1,24 @@
-<h2 style="text-align: center;">Daily Expense Manager</h2> 
+<h2>Daily Expense Manager</h2> 
 
 <p>
 This project aims to create a web application that manages the daily expenses of its users. Each user will have to register and login to use the app. Once logged in, the user will be able to see their spending logs ordered by the entry time. Clicking on an entry would provide the details associated with that expense. A separate section will allow the user to log their expenses where they may also specify the payment method used.
 </p>
+
+<h2>Screens</h2>
+    <ul>
+        <li><b>Index Page/ Login Page</b>: The main page of this application for users to Login</li>
+        <li><b>Register Page</b>: Page for creating new account</li>
+        <li><b>Dashboard Page/ Home Page</b>: Home page for user after logging in</li>
+        <li><b>Edit Info</b>: Page for editing user information</li>
+        <li><b>View All Page</b>: Page for displaying all the past transactions done by the user</li>
+    </ul>
+
+<h2>Database: Tables used</h2>
+    <ul>
+        <li><b>User</b>: For storing all the user account informations</li>
+        <li><b>Expense</b>: For storing the expense related informations</li>
+        <li><b>Card</b>: For storing all the user's card informations</li>
+    </ul>
 
 <h2>Screenshots</h2>
 <h3> Index Page</h3>
