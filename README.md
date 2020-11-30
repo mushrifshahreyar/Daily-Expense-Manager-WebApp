@@ -14,16 +14,32 @@ This project aims to create a web application that manages the daily expenses of
 <h3> User Dashboard Page</h3>
 <img src="Screenshot/Dashboard.png" width=600>
 
+<h3> User Dashboard Page: Options</h3>
+<img src="Screenshot/Dashboard_withOptions.png" width=600>
+
 <h4> Dashboard: Dynamic form</h2>
 <ul>
     <li>
         <h5>Payment Mode: Cash</h5>
             <img src="Screenshot/DynamicForm_a.png" width=400>
     </li>
+    <li>
+        <h5>Payment Mode: Card</h5>
+            <img src="Screenshot/DynamicForm_b.png" width=400>
+    </li>
+    <li>
+        <h5>Payment Mode: Interner Banking</h5>
+            <img src="Screenshot/DynamicForm_c.png" width=400>
+    </li>
 </ul>
 
-<h3> Register Page</h3>
-<img src="Screenshot/RegisterPage.png">
+<h3> Add card Popup Dialog box</h3>
+<img src="Screenshot/AddCardPopupDialogBox.png" width=600>
 
-<h3> Register Page</h3>
-<img src="Screenshot/RegisterPage.png">
+<h3> Edit Information/ Setting Page</h3>
+<img src="Screenshot/EditInfo.png" width=600>
+
+<h3> View Past Transactions/View All Page </h3>
+<img src="Screenshot/ViewPastTransactions.png" width=600>
+
+<h2>Thank you</h2>
