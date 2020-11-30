@@ -11,15 +11,14 @@ This project aims to create a web application that manages the daily expenses of
     * **View All Page**: Page for displaying all the past transactions done by the user.
     
 
-<h2>Database: Tables used</h2>
-    <ul>
-        <li><b>User</b>: For storing all the user account informations</li>
-        <li><b>Expense</b>: For storing the expense related informations</li>
-        <li><b>Card</b>: For storing all the user's card informations</li>
-    </ul>
+## Database: Tables used
+    * **User**: For storing all the user account informations
+    * **Expense**: For storing the expense related informations
+    * **Card**: For storing all the user's card informations
+    
 
-<h2>UI: Demo Video</h2>
-<img src="Screenshot/ui.gif" alt="Not Available" width=450/>
+## UI: Demo Video
+[!Demo video](Screenshot/ui.gif)
 
 <h2>Screenshots</h2>
 <h3> Index Page</h3>
