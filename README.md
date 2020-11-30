@@ -18,14 +18,14 @@ This project aims to create a web application that manages the daily expenses of
     
 
 ## UI: Demo Video
-![Demo video](Screenshot/ui.gif =400x)
+![Demo video](Screenshot/ui.gif)
 
 ## Screenshots
 ### Index Page
-![Index Page](Screenshot/Indexpage.png =600x)
+![Index Page](Screenshot/Indexpage.png)
 
 ### Register Page
-![Register Page](Screenshot/RegisterPage.png =600x)
+![Register Page](Screenshot/RegisterPage.png)
 
 <h3> User Page</h3>
 <img src="Screenshot/Dashboard.png" width=600>
