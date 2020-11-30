@@ -36,11 +36,17 @@ This project aims to create a web application that manages the daily expenses of
 ### Dashboard: Dynamic form</h2>
 
 * **Payment Mode**: Cash
-![DynamicForm_a](Screenshot/DynamicForm_a.png) <!-- .element height="50%" width="50%" -->
+
+![DynamicForm_a](Screenshot/DynamicForm_a.png)
+
 * **Payment Mode**: Card
-![DynamicForm_b](Screenshot/DynamicForm_b.png){ width=40% }
+
+![DynamicForm_b](Screenshot/DynamicForm_b.png)
+
 * **Payment Mode**: Interner Banking
-![DynamicForm_c](Screenshot/DynamicForm_c.png){ width=40% }
+
+![DynamicForm_c](Screenshot/DynamicForm_c.png)
+
 
 ### Add card Popup Dialog box
 ![AddCardPopupDialogBox](Screenshot/AddCardPopupDialogBox.png)
