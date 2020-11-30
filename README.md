@@ -27,27 +27,26 @@ This project aims to create a web application that manages the daily expenses of
 ### Register Page
 ![Register Page](Screenshot/RegisterPage.png)
 
-<h3> User Page</h3>
-<img src="Screenshot/Dashboard.png" width=600>
+### User Page
+![Dashboard Page](Screenshot/Dashboard.png)
 
-<h3> User Dashboard Page: Options</h3>
-<img src="Screenshot/Dashboard_withOptions.png" width=600>
+### User Dashboard Page: Options
+![Dashboard_With_Options](Screenshot/Dashboard_withOptions.png)
 
-<h4> Dashboard: Dynamic form</h2>
+### Dashboard: Dynamic form</h2>
 
-    <li><h5>Payment Mode: Cash</h5></li>
-    <img src="Screenshot/DynamicForm_a.png" width=400>
-    <li><h5>Payment Mode: Card</h5></li>
-    <img src="Screenshot/DynamicForm_b.png" width=400>
-    <li><h5>Payment Mode: Interner Banking</h5></li>
-    <img src="Screenshot/DynamicForm_c.png" width=400>
-<ul>
+* **Payment Mode**: Cash
+![DynamicForm_a](Screenshot/DynamicForm_a.png)
+* **Payment Mode**: Card
+![DynamicForm_b](Screenshot/DynamicForm_b.png)
+* **Payment Mode**: Interner Banking
+![DynamicForm_c](Screenshot/DynamicForm_c.png)
 
-<h3> Add card Popup Dialog box</h3>
-<img src="Screenshot/AddCardPopupDialogBox.png" width=600>
+### Add card Popup Dialog box
+![AddCardPopupDialogBox](Screenshot/AddCardPopupDialogBox.png)
 
-<h3> Edit Information/ Setting Page</h3>
-<img src="Screenshot/EditInfo.png" width=600>
+### Edit Information/ Setting Page
+![EditInfo](Screenshot/EditInfo.png)
 
-<h3> View Past Transactions/View All Page </h3>
-<img src="Screenshot/ViewPastTransactions.png" width=600>
+### View Past Transactions/View All Page
+![ViewPastTransactions](Screenshot/ViewPastTransactions.png)
