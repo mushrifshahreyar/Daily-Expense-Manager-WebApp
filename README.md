@@ -36,7 +36,7 @@ This project aims to create a web application that manages the daily expenses of
 ### Dashboard: Dynamic form</h2>
 
 * **Payment Mode**: Cash
-![DynamicForm_a](Screenshot/DynamicForm_a.png){ width=40% }
+![DynamicForm_a](Screenshot/DynamicForm_a.png | width=50)
 * **Payment Mode**: Card
 ![DynamicForm_b](Screenshot/DynamicForm_b.png){ width=40% }
 * **Payment Mode**: Interner Banking
