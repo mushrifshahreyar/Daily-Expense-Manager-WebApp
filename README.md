@@ -4,11 +4,11 @@ This project aims to create a web application that manages the daily expenses of
 
 
 ## Screens
-    * **Index Page/ Login Page**: The main page of this application for users to Login.
-    * **Register Page**: Page for creating new account.
-    * **Dashboard Page/ Home Page**: Home page for user after logging in.
-    * **Edit Info**: Page for editing user information.
-    * **View All Page**: Page for displaying all the past transactions done by the user.
+* **Index Page/ Login Page**: The main page of this application for users to Login.
+* **Register Page**: Page for creating new account.
+* **Dashboard Page/ Home Page**: Home page for user after logging in.
+* **Edit Info**: Page for editing user information.
+* **View All Page**: Page for displaying all the past transactions done by the user.
     
 
 ## Database: Tables used
