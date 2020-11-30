@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: Nov 29, 2020 at 06:43 PM
+-- Generation Time: Nov 30, 2020 at 08:07 AM
 -- Server version: 10.5.8-MariaDB
 -- PHP Version: 7.4.12
 
@@ -38,10 +38,7 @@ CREATE TABLE `card` (
 --
 
 INSERT INTO `card` (`card_id`, `card_name`, `uid`) VALUES
-(2, 'HDFC', 9),
-(3, 'Egg ICICI', 10),
-(4, 'Egg SBI', 10),
-(5, 'HDFC Card', 1);
+(1, 'HDFC Card', 1);
 
 -- --------------------------------------------------------
 
@@ -66,27 +63,10 @@ CREATE TABLE `expense` (
 --
 
 INSERT INTO `expense` (`eid`, `uid`, `amount`, `title`, `payment_type`, `type`, `date`, `bank`, `card_id`) VALUES
-(18, 1, 111, 'Milk', 'cashPayment', 'debit', '2020-11-26', NULL, NULL),
-(19, 1, 111, 'Milk', 'cashPayment', 'debit', '2020-11-26', NULL, NULL),
-(20, 1, 20000, 'Salary', 'cashPayment', 'credit', '2020-11-25', NULL, NULL),
-(21, 9, 60000, 'Salary', 'cardPayment', 'debit', '2020-11-27', NULL, NULL),
-(22, 10, 3000, 'Dined Out', 'cashPayment', 'debit', '2020-11-27', NULL, NULL),
-(23, 10, 5000, 'Takeout', 'internetBanking', 'credit', '2020-11-05', '3470-1100', NULL),
-(24, 10, 4070, 'Egg Purchase', 'cardPayment', 'credit', '2020-10-30', NULL, NULL),
-(25, 10, 70001, 'Mayo Purchase', 'cardPayment', 'debit', '2020-09-07', NULL, NULL),
-(26, 10, 491, 'chicken', 'cashPayment', 'debit', '2020-11-03', NULL, NULL),
-(27, 10, 400, 'KFC', 'cardPayment', 'credit', '2020-10-26', NULL, NULL),
-(28, 10, 6009, 'goo', 'internetBanking', 'credit', '2020-11-07', '1234-5678', NULL),
-(29, 1, 200, 'Milk', 'cardPayment', 'debit', '2020-11-27', NULL, NULL),
-(30, 1, 100, 'MMM', 'cardPayment', 'debit', '2020-11-26', NULL, NULL),
-(31, 1, 1, 's', 'cardPayment', 'debit', '2020-11-19', NULL, NULL),
-(32, 1, 9, 'k', 'cardPayment', 'debit', '2020-11-26', NULL, NULL),
-(37, 1, 200, 'sdsd', 'cashPayment', 'credit', '2020-11-26', NULL, 5),
-(39, 1, 111, 'lskjd', 'cardPayment', 'debit', '2020-11-26', NULL, 5),
-(40, 1, 12, '897897', 'cardPayment', 'debit', '2020-11-26', NULL, 5),
-(41, 1, 100, 'akjdhaskjdh', 'internetBanking', 'debit', '2020-11-18', 'SBI', NULL),
-(42, 1, 111, 'kjhjkh', 'internetBanking', 'debit', '2020-11-26', 'askldhaslkdj', NULL),
-(43, 11, 8767, 'khkjhjkh', 'cardPayment', 'debit', '2020-11-12', NULL, NULL);
+(1, 1, 40000, 'Salary', 'cardPayment', 'credit', '2020-10-06', NULL, 1),
+(2, 1, 400, 'Dress', 'internetBanking', 'debit', '2020-10-14', 'SBI Bank', NULL),
+(3, 1, 40, 'milk', 'cashPayment', 'debit', '2020-11-18', NULL, NULL),
+(4, 1, 40000, 'Sal', 'cashPayment', 'credit', '2020-11-01', NULL, NULL);
 
 -- --------------------------------------------------------
 
@@ -107,14 +87,7 @@ CREATE TABLE `user` (
 --
 
 INSERT INTO `user` (`uid`, `username`, `email`, `pass`, `extra`) VALUES
-(1, 'Mushrif', 'mushrifshahreyar@gmail.com', 'e10adc3949ba59abbe56e057f20f883e', NULL),
-(2, 'test', 'test@tmail.com', 'a53a7673bf4dbcf3558724b3d005ea04', NULL),
-(3, 'Elon Musk', 'Iss_cheek_badi_hai_musk_musk@musk.com', '2fc5c7ce2ac13cb688dd74f500b1bc00', NULL),
-(4, 'vito', 'varun@gmail.com', '81dc9bdb52d04dc20036dbd8313ed055', NULL),
-(5, 'abhikmp', 'abhikampurath@gmail.com', '827ccb0eea8a706c4c34a16891f84e7b', NULL),
-(9, 'mushrif', 'mushrif@gmail', '81dc9bdb52d04dc20036dbd8313ed055', NULL),
-(10, 'egg', 'egg@gmail.com', '0e9312087f58f367d001ec9bae8f325a', NULL),
-(11, 'test', 'test@test.com', '098f6bcd4621d373cade4e832627b4f6', NULL);
+(1, 'Mushrif', 'mushrifshahreyar@gmail.com', '827ccb0eea8a706c4c34a16891f84e7b', NULL);
 
 --
 -- Indexes for dumped tables
@@ -148,19 +121,19 @@ ALTER TABLE `user`
 -- AUTO_INCREMENT for table `card`
 --
 ALTER TABLE `card`
-  MODIFY `card_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+  MODIFY `card_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
 --
 -- AUTO_INCREMENT for table `expense`
 --
 ALTER TABLE `expense`
-  MODIFY `eid` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=44;
+  MODIFY `eid` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 
 --
 -- AUTO_INCREMENT for table `user`
 --
 ALTER TABLE `user`
-  MODIFY `uid` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
+  MODIFY `uid` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
 --
 -- Constraints for dumped tables
