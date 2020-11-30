@@ -21,10 +21,7 @@ This project aims to create a web application that manages the daily expenses of
     </ul>
 
 <h2>UI: Demo Video</h2>
-<video width="320" height="240" autoplay>
-  <source src="Screenshot/ui.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+![Short Demo](Screenshot/ui.gif)
 
 <h2>Screenshots</h2>
 <h3> Index Page</h3>
