@@ -78,7 +78,7 @@
                         <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Hi <?= $_SESSION['username'];?></a>
                         <div class="dropdown-menu dropdown-menu-right">
                             <a href="dashboard.php" class="dropdown-item">Home</a>
-                            <a href="#" class="dropdown-item">View past transactions</a>
+                            <a href="view_all.php" class="dropdown-item">View past transactions</a>
                             <div class="dropdown-divider"></div>
                             <a href="index.php" class="dropdown-item">Logout</a>
                         </div>
